@@ -23,7 +23,6 @@
     behaviors {
 
         th: zmk,behavior-hold-tap {
-            :zmk,behavior-hold-tap
 
             compatible = "zmk,behavior-hold-tap";
             label = "ZMK,BEHAVIOR-HOLD-TAP";
