@@ -12,7 +12,6 @@
     behaviors {
         thk: zmk,behavior-hold-tap {
             compatible = "zmk,behavior-hold-tap";
-            label = "ZMK,BEHAVIOR-HOLD-TAP";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -22,7 +21,6 @@
 
         th_layer_switch: zmk,behavior-hold-tap-layer {
             compatible = "zmk,behavior-hold-tap-layer";
-            label = "HOLD_TAP_LAYER_SWITCH";
             bindings = <&mo 1>, <&tog 2>;
 
             #binding-cells = <2>;
