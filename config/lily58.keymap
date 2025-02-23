@@ -24,7 +24,7 @@
             hold-while-undecided;
         };
         th_layer_switch: zmk,behavior-hold-tap {
-            compatible = "zmk,behavior-hold-tap";
+            compatible = "zmk,behavior-hold-tap-layer";
             label = "HOLD_TAP_LAYER_SWITCH";
             bindings = <&mo 1>, <&tog 2>;
             tapping-term-ms = <200>;
