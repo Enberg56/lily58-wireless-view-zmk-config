@@ -11,18 +11,16 @@
     behaviors {
         thk: zmk,behavior-hold-tap {
             compatible = "zmk,behavior-hold-tap";
-            bindings = <&kp>, <&kp>;
-
             #binding-cells = <2>;
+            bindings = <&kp>, <&kp>;
             tapping-term-ms = <100>;
             hold-while-undecided;
         };
 
         th_layer_switch: zmk,behavior-hold-tap-layer {
             compatible = "zmk,behavior-hold-tap-layer";
-            bindings = <&mo 1>, <&tog 2>;
-
             #binding-cells = <2>;
+            bindings = <&mo>, <&tog>;
             tapping-term-ms = <200>;
             hold-while-undecided;
         };
